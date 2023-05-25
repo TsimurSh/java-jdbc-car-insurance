@@ -7,6 +7,7 @@ After receiving the data, the client should get all insured vehicles in a readab
 ### Tech stack:
 Java, 
 Gradle,
+Docker,
 PostgreSQL,
 Node.js,
 Vue
