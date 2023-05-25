@@ -12,10 +12,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup Node 16
+      - name: Setup Node 19
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 19
 
       - name: 🪕️ frontend - INSTALL 📼
         run: npm i
