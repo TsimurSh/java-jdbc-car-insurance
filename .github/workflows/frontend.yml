@@ -1,0 +1,27 @@
+name: Frontend CI
+on:
+  push:
+    branches:
+      - 'front**'
+      - master
+
+jobs:
+  DEPLOY_FRONTEND:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: 🪕️ frontend - INSTALL 📼
+        run: npm i
+        working-directory: frontend
+
+      - name: ⏱️ frontend - BUILD 🕰
+        run: npm run build
+        working-directory: frontend
+

@@ -1,6 +1,10 @@
 ## Test task:
+A simple TCP/IP server in Java that will open a Socket and start listening for incoming data on a chosen port. 
+Upon receiving a message during login (the client sends the user ID while logging into their account), 
+the server will retrieve all vehicles and insurance offers for the given user and send them back as a response. 
+After receiving the data, the client should get all insured vehicles in a readable table format in their browser.
 
-### Tech Stack:
+### Tech stack:
 Java, 
 Gradle,
 PostgreSQL,
