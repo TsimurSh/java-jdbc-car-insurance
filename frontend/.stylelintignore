@@ -1,0 +1,16 @@
+node_modules
+.nuxt
+!*.css
+!*.scss
+
+*.woff
+*.otf
+*.ttf
+*.pdf
+*.md
+*.sh
+*.png
+*.jpg
+*.jpeg
+*.ico
+*.svg

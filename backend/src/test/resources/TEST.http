@@ -1,0 +1,15 @@
+### LOGIN
+POST http://localhost:8080/login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "login": "Leo2",
+  "password": "test"
+}
+
+
+### Get all vehicles for user with id = -1
+GET http://localhost:8080/api/vehicle
+Accept: application/json
+Cookie: token=SECRET_TOKEN--1

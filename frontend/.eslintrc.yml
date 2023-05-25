@@ -1,0 +1,21 @@
+root: true
+env:
+  browser: true
+  node: true
+ignorePatterns:
+  - components/ignore/**
+extends:
+  - prettier
+  - eslint:recommended
+  - plugin:vue/strongly-recommended
+  - plugin:nuxt/recommended
+  - '@nuxtjs/eslint-config-typescript'
+parser: vue-eslint-parser
+rules:
+  #  vue/no-static-inline-styles: 2  #
+  no-console: off
+  no-debugger: 1
+  no-array-constructor: off
+  space-before-function-paren: 0
+  vue/this-in-template: 2
+  vue/multi-word-component-names: off

@@ -1,0 +1,17 @@
+body {
+    user-select: auto;
+    font-family: 'Nunito-Regular', Nunito, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    background-color: #fff;
+
+    background-attachment: fixed;
+    color: #000;
+}
+
+:root {
+    --font-family-nunito: Nunito;
+}
+
+

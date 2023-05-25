@@ -1,0 +1,15 @@
+printWidth: 140
+semi: false
+singleQuote: true
+bracketSpacing: true
+bracketSameLine: true
+useTabs: false
+tabWidth: 4
+arrowParens: always
+trailingComma: all
+htmlWhitespaceSensitivity: css
+overrides:
+  - files: '*.vue'
+    options:
+      tabWidth: 2
+      vueIndentScriptAndStyle: true

@@ -1,0 +1,4 @@
+GET http://localhost:8080/api?name=sam
+Accept: application/json
+Cookie: token=1
+

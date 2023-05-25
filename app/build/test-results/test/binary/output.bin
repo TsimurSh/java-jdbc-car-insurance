@@ -1,0 +1,7 @@
+!💫 Prepared Statement = SELECT
+hv.id AS vehicle_id, v.brand AS vehicle_brand, v.model AS vehicle_model, v.insert_time AS vehicle_i_time
+y,io.id AS insurance_id, io.insurer AS insurance_insurer, io.price AS insurance_price, io.insert_time AS insurance_i_time
+FROM users u
++INNER JOIN vehicles v ON u.login = v.login
+7INNER JOIN insurance_offers io ON v.id = io.vehicle_id
+'WHERE u.id = -1 ORDER BY v.insert_time

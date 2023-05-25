@@ -1,0 +1,53 @@
+INSERT INTO users
+VALUES (-1, 'Leo', 'Leo2', 'secret5')
+ON CONFLICT DO NOTHING;
+INSERT INTO users
+VALUES (-2, 'Basil', '22Basil', 'secret4')
+ON CONFLICT DO NOTHING;
+INSERT INTO users
+VALUES (-3, 'Jewel', 'Jewel567', 'secret2')
+ON CONFLICT DO NOTHING;
+INSERT INTO users
+VALUES (-4, 'Iggy', 'Iggy001', 'secret1')
+ON CONFLICT DO NOTHING;
+
+INSERT INTO vehicles
+VALUES (-1, 'Leo2', 'Mercedes', 'E202', '2001-08-17')
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicles
+VALUES (-2, '22Basil', 'BMW', '540d', '2000-01-09')
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicles
+VALUES (-3, 'Leo2', 'Ford', 'Focus', '2002-11-17')
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicles
+VALUES (-4, 'Jewel567', 'TOYOTA', 'Camry', '2000-08-20')
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicles
+VALUES (-5, 'Iggy001', 'SAAB', '9-5', '2009-08-18')
+ON CONFLICT DO NOTHING;
+
+INSERT INTO insurance_offers
+VALUES (-1, -3, 'ATA', 77.00, '2022-08-17')
+ON CONFLICT DO NOTHING;
+INSERT INTO insurance_offers
+VALUES (-2, -3, 'ATA', 77.00, '2022-08-15')
+ON CONFLICT DO NOTHING;
+INSERT INTO insurance_offers
+VALUES (-3, -2, 'PZU', 109.25, '2022-09-07')
+ON CONFLICT DO NOTHING;
+INSERT INTO insurance_offers
+VALUES (-4, -1, 'Insurance Consulting', 89.99, '2022-01-01')
+ON CONFLICT DO NOTHING;
+INSERT INTO insurance_offers
+VALUES (-5, -1, 'Insurance Consulting', 89.99, '2022-06-27')
+ON CONFLICT DO NOTHING;
+INSERT INTO insurance_offers
+VALUES (-6, -5, 'UNIQA', 101.70, '2022-11-12')
+ON CONFLICT DO NOTHING;
+INSERT INTO insurance_offers
+VALUES (-7, -4, 'PZU', 34.00, '2022-01-05')
+ON CONFLICT DO NOTHING;
+INSERT INTO insurance_offers
+VALUES (-8, -4, 'PZU', 34.00, '2022-11-11')
+ON CONFLICT DO NOTHING;
